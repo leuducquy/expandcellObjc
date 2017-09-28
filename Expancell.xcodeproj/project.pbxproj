@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576AF3C559476E357E816816 /* Pods_Expancell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C4FDCA9C511E9582365F1 /* Pods_Expancell.framework */; };
 		F2F0B8201F7D220F0039953F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B81F1F7D220F0039953F /* main.m */; };
 		F2F0B8231F7D220F0039953F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B8221F7D220F0039953F /* AppDelegate.m */; };
 		F2F0B8261F7D220F0039953F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B8251F7D220F0039953F /* ViewController.m */; };
 		F2F0B8291F7D220F0039953F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F0B8271F7D220F0039953F /* Main.storyboard */; };
 		F2F0B82B1F7D220F0039953F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F0B82A1F7D220F0039953F /* Assets.xcassets */; };
 		F2F0B82E1F7D220F0039953F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F0B82C1F7D220F0039953F /* LaunchScreen.storyboard */; };
+		F2F0B8381F7D22B40039953F /* ExpandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B8361F7D22B40039953F /* ExpandTableViewCell.m */; };
+		F2F0B8391F7D22B40039953F /* ExpandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F0B8371F7D22B40039953F /* ExpandTableViewCell.xib */; };
+		F2F0B8401F7D29A70039953F /* quyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B83F1F7D29A70039953F /* quyLabel.m */; };
+		F2F0B8431F7D3A0C0039953F /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F0B8421F7D3A0C0039953F /* TTTAttributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3C4FDCA9C511E9582365F1 /* Pods_Expancell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Expancell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F4D2B89D286A729A45BF19 /* Pods-Expancell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expancell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Expancell/Pods-Expancell.debug.xcconfig"; sourceTree = "<group>"; };
+		A5818A2A6CAAA194A9BB032F /* Pods-Expancell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expancell.release.xcconfig"; path = "Pods/Target Support Files/Pods-Expancell/Pods-Expancell.release.xcconfig"; sourceTree = "<group>"; };
 		F2F0B81B1F7D220F0039953F /* Expancell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expancell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F0B81F1F7D220F0039953F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2F0B8211F7D220F0039953F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,13 @@
 		F2F0B82A1F7D220F0039953F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F0B82D1F7D220F0039953F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2F0B82F1F7D220F0039953F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F0B8351F7D22B40039953F /* ExpandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandTableViewCell.h; sourceTree = "<group>"; };
+		F2F0B8361F7D22B40039953F /* ExpandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandTableViewCell.m; sourceTree = "<group>"; };
+		F2F0B8371F7D22B40039953F /* ExpandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandTableViewCell.xib; sourceTree = "<group>"; };
+		F2F0B83E1F7D29A70039953F /* quyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quyLabel.h; sourceTree = "<group>"; };
+		F2F0B83F1F7D29A70039953F /* quyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quyLabel.m; sourceTree = "<group>"; };
+		F2F0B8411F7D3A0C0039953F /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		F2F0B8421F7D3A0C0039953F /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576AF3C559476E357E816816 /* Pods_Expancell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CCD50339AE673B229168360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C4FDCA9C511E9582365F1 /* Pods_Expancell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B72746C9C040F67151881D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F4D2B89D286A729A45BF19 /* Pods-Expancell.debug.xcconfig */,
+				A5818A2A6CAAA194A9BB032F /* Pods-Expancell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F2F0B8121F7D220F0039953F = {
 			isa = PBXGroup;
 			children = (
 				F2F0B81D1F7D220F0039953F /* Expancell */,
 				F2F0B81C1F7D220F0039953F /* Products */,
+				D3B72746C9C040F67151881D /* Pods */,
+				4CCD50339AE673B229168360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +95,8 @@
 			children = (
 				F2F0B8211F7D220F0039953F /* AppDelegate.h */,
 				F2F0B8221F7D220F0039953F /* AppDelegate.m */,
+				F2F0B8411F7D3A0C0039953F /* TTTAttributedLabel.h */,
+				F2F0B8421F7D3A0C0039953F /* TTTAttributedLabel.m */,
 				F2F0B8241F7D220F0039953F /* ViewController.h */,
 				F2F0B8251F7D220F0039953F /* ViewController.m */,
 				F2F0B8271F7D220F0039953F /* Main.storyboard */,
@@ -67,6 +104,11 @@
 				F2F0B82C1F7D220F0039953F /* LaunchScreen.storyboard */,
 				F2F0B82F1F7D220F0039953F /* Info.plist */,
 				F2F0B81E1F7D220F0039953F /* Supporting Files */,
+				F2F0B8351F7D22B40039953F /* ExpandTableViewCell.h */,
+				F2F0B8361F7D22B40039953F /* ExpandTableViewCell.m */,
+				F2F0B8371F7D22B40039953F /* ExpandTableViewCell.xib */,
+				F2F0B83E1F7D29A70039953F /* quyLabel.h */,
+				F2F0B83F1F7D29A70039953F /* quyLabel.m */,
 			);
 			path = Expancell;
 			sourceTree = "<group>";
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2F0B8321F7D220F0039953F /* Build configuration list for PBXNativeTarget "Expancell" */;
 			buildPhases = (
+				8E19FB07B897B33B6649A679 /* [CP] Check Pods Manifest.lock */,
 				F2F0B8171F7D220F0039953F /* Sources */,
 				F2F0B8181F7D220F0039953F /* Frameworks */,
 				F2F0B8191F7D220F0039953F /* Resources */,
+				BBE3CD2969BA6B0CEF4EBE5E /* [CP] Embed Pods Frameworks */,
+				1C0BF86CE78B217351E21541 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,10 +186,59 @@
 				F2F0B82E1F7D220F0039953F /* LaunchScreen.storyboard in Resources */,
 				F2F0B82B1F7D220F0039953F /* Assets.xcassets in Resources */,
 				F2F0B8291F7D220F0039953F /* Main.storyboard in Resources */,
+				F2F0B8391F7D22B40039953F /* ExpandTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0BF86CE78B217351E21541 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Expancell/Pods-Expancell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E19FB07B897B33B6649A679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE3CD2969BA6B0CEF4EBE5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Expancell/Pods-Expancell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2F0B8171F7D220F0039953F /* Sources */ = {
@@ -153,7 +247,10 @@
 			files = (
 				F2F0B8261F7D220F0039953F /* ViewController.m in Sources */,
 				F2F0B8231F7D220F0039953F /* AppDelegate.m in Sources */,
+				F2F0B8401F7D29A70039953F /* quyLabel.m in Sources */,
 				F2F0B8201F7D220F0039953F /* main.m in Sources */,
+				F2F0B8381F7D22B40039953F /* ExpandTableViewCell.m in Sources */,
+				F2F0B8431F7D3A0C0039953F /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +368,7 @@
 		};
 		F2F0B8331F7D220F0039953F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F4D2B89D286A729A45BF19 /* Pods-Expancell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W55P3GMF82;
@@ -283,6 +381,7 @@
 		};
 		F2F0B8341F7D220F0039953F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5818A2A6CAAA194A9BB032F /* Pods-Expancell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W55P3GMF82;
@@ -312,6 +411,7 @@
 				F2F0B8341F7D220F0039953F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
